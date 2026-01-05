@@ -74,14 +74,21 @@ http://localhost:5000
 
 (or the port you configured in `.env`)
 
+You can also access the **live deployed version** at:
+
+```
+https://todo-with-cocobase.onrender.com
+```
+
 ---
 
 ## API Usage
 
-Base URL:
+Base URL (local or deployed):
 
 ```
 http://localhost:5000
+https://todo-with-cocobase.onrender.com
 ```
 
 ### Health Check
@@ -175,5 +182,6 @@ curl -X DELETE http://localhost:5000/todos/<todo_id>
 * This project is meant for learning and experimentation
 * Semgrep is configured for **local-only** scanning
 * Dependency and build artifacts are excluded from analysis
+* Live deployment is available at **[https://todo-with-cocobase.onrender.com](https://todo-with-cocobase.onrender.com)**
 
 ---
